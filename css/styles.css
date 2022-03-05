@@ -482,6 +482,10 @@ main img[src="images/flowers_mobile.png"] {
 		margin: 10px;
 	}
 
+	.shop h2{
+		font-size:1.2em;
+	}
+
 	.shop h3{
 		margin: 20px;
 	}
