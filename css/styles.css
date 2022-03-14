@@ -118,6 +118,7 @@ header nav{
 
 .poppy_logo{
 	max-width:300px;
+	padding-top: 10px;
 }
 
   
@@ -282,6 +283,30 @@ main img[src="images/flowers_mobile.png"] {
 	display:block;
 }
 
+/*************FAQ Page*************/
+
+.faq h1,
+.faq details,
+.faq summary{
+	color:#710f11;
+}
+
+.faq summary{
+	font-size:1.2em;
+	padding-bottom: 10px;
+}
+
+.faq details{
+	padding: 20px;
+	text-align:left;
+}
+
+.faq .last_detail{
+	padding-bottom:50px;
+}
+
+
+
 /*************Media Queries*************/
 
 @media screen and (min-width:320px){
@@ -349,6 +374,7 @@ main img[src="images/flowers_mobile.png"] {
 		top: 10px;
 		left: 5px;
 		width: 25%;
+		padding:0;
 	}
 
 	.flower_logo{
@@ -466,6 +492,11 @@ main img[src="images/flowers_mobile.png"] {
 	.about figure{
 		margin-left:100px;
 		background:none;
+	}
+
+	.faq details{
+		margin: 0 auto;
+		max-width: 590px;
 	}
 }
 
