@@ -264,24 +264,34 @@ main img[src="images/flowers_mobile.png"] {
 	background-color: #2e330a;
 }
 
+.shop figure a{
+	background: none;
+	border: none;
+	display:inline;
+}
+
+.shop figure a:hover{
+	background: none;
+}
+
 .shop_wall_items img,
 .shop_garden_items img{
 	background-color:#f3e2d0;
 	padding:10px;
 	margin:10px;
 	max-width:200px;
+	border: #f3e2d0 solid 2px;
+	border-radius: 5px;
 }
 .shop figcaption{
 	background-color: #a01c20;
 	padding: 20px;
-	display: none;
 	max-width:180px;
-	margin:0 auto;
+	margin:0 auto 30px;
+	border:#710f11 solid 2px;
+	border-radius:5px;
 }
 
-.shop img:hover +figcaption{
-	display:block;
-}
 
 /*************FAQ Page*************/
 
@@ -513,12 +523,19 @@ main img[src="images/flowers_mobile.png"] {
 		margin: 10px;
 	}
 
+	.shop figure a{
+		padding:0;
+		margin:0;
+	}
+
 	.shop h2{
 		font-size:1.2em;
 	}
 
 	.shop h3{
 		margin: 20px;
+		font-size: 1.3em;
+		padding: 20px;
 	}
 
 	.flower_logo{
