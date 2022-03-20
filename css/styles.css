@@ -270,6 +270,10 @@ main img[src="images/flowers_mobile.png"] {
 	display:inline;
 }
 
+.shop figure a:hover{
+	background: none;
+}
+
 .shop_wall_items img,
 .shop_garden_items img{
 	background-color:#f3e2d0;
